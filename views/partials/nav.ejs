@@ -1,0 +1,72 @@
+<div class="top-navigation">
+    <div class="logo"><a href="#"> <img src="/images/airbnb logo.png" alt="Logo"> </a></div>
+
+
+    <nav>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#" class="nav-link">Places to stay</a></li>
+                <li><a href="#" class="nav-link">Experiences</a></li>
+                <li><a href="#" class="nav-link">Online Experiences</a></li>
+            </ul>
+        </div>
+
+        <form class="search">
+            <div class="search-inputs">
+                <label for="location">
+                    <div class="label">Location</div>
+                    <input type="text"  name="location" id="location" placeholder="Where are you going?" />
+                </label>
+
+            </div>
+            <div class="search-inputs">
+                <label for="check-in">
+                    <div class="label">Check in</div>
+                    <input type="date" name="check-in" id="check-in" placeholder="Add dates" />
+                </label>
+            </div>
+            <div class="search-inputs">
+                <label for="check-out">
+                    <div class="label">Check out</div>
+                    <input type="date" name="check-out" id="check-out" placeholder="Add dates" />
+                </label>
+            </div>
+            <div class="search-inputs" style="width:fit-content">
+                <label for="guests">
+                    <div class="label">Guests</div>
+                    <input type="text"   name="guests" id="guests" placeholder="visiter no." />
+                </label>
+            </div>
+            <div class="search-button">
+                <button onclick="preventDefault()"><i class="fas fa-search fa-xs"></i></button>
+            </div>
+        </form>
+    </nav> <!--   End nav   -->
+
+    <div class="cta">
+     
+        <div class="globe">
+          <a href="#">  <i class="fa-solid fa-globe"></i></a>
+           
+        </div>
+     
+            <div class="profile-menu mx-2 my-1">
+                <button type="button" class="btn btn-outline-dark " data-bs-toggle="dropdown">
+                    <i class="fa-solid fa-bars"></i>
+                <span class="fas fa-user"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/signup">Sign up</a></li>
+                  <li><a class="dropdown-item" href="/login">login</a></li>
+                  
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="authuser/hoster">Airbnb your home</a></li>
+                  <li><a class="dropdown-item" href="authuser/hoster_curd">Host an experience</a></li>
+                  <li><a class="dropdown-item" href="authuser/help">Help</a></li>
+                </ul>
+              </div>
+        </div>
+    </div>
+
+
+</div> <!--   end .top-navigation -->

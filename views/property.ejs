@@ -1,0 +1,70 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/nav2.ejs') %>
+
+
+
+
+<h1>Add more functionalities in this page</h1>
+      <!-- hoster details -->
+      <div style="height: 45px;" class="d-flex align-items-center border border-dark ps-3 mt-3 w-50">
+        <!-- user image -->
+        <!-- <span></span> -->
+        <!-- user name -->
+        <p class="m-0">Owner: <span class="ownerName"></span> </p>
+    </div>
+    <!-- booking form -->
+    <div class="col-lg-5 col-md-12 my-3 border border-dark rounded">
+        <form class="mt-2 px-2" method="post" action="/property/bookingconf">
+            <div class="row">
+                <!-- alert here -->
+                <div class="col-12 showalert">
+
+                </div>
+                <!-- guest name -->
+                <div class="col-lg-12 col-md-12">
+                    <label for="guestName" class="form-label">GuestName</label>
+                    <input type="text" class="form-control" id="guestName" name="GuestName" required>
+                </div>
+                <!-- check in -->
+                <div class="col-6">
+                    <label for="checkIn" class="form-label">Check in</label>
+                    <input type="date" class="form-control" id="checkIn" name="CheckIn" required>
+                </div>
+                <!-- check out -->
+                <div class="col-6">
+                    <label for="checkOut" class="form-label">Check out</label>
+                    <input type="date" class="form-control" id="checkOut" name="CheckOut" required>
+                </div>
+            </div>
+            <!-- Nop -->
+            <div class="col-12 mt-3">
+                <label for="nop" class="form-label">No of person</label>
+                <input type="number" class="form-control" id="nop" name="Nop" required>
+            </div>
+            <!-- no of nights -->
+            <div class="col-lg-4 col-md-12 mt-3">
+                <label for="non" class="form-label">No of nights</label>
+                <input type="number" class="form-control" id="non" name="Non" required>
+            </div>
+            <!-- payment option -->
+            <div class="col-lg-12 col-md-12 mt-3">
+                <label for="payment" class="form-label">Payment option</label>
+                <select class="form-select" id="payment" name="Payment" required>
+                    <option>Pay at property</option>
+                    <option>Online payment</option>
+                </select>
+            </div>
+            <!-- submit -->
+            <div class="col-12 my-3">
+                <button class="btn btn-primary submitBtn" type="submit">Submit form</button>
+            </div>
+        </form>
+    </div>
+    <div class="container px-2 py-4" id="reviewcontainer">
+        <h3>feedback&reviews</h3>
+        <!-- <div class="container p-2 border border-3 border-dark w-50 ms-0 my-4"> -->
+
+        <!-- </div>   -->
+    </div>
+
+    <%- include('./partials/footer.ejs') %>

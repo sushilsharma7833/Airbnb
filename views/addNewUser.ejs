@@ -1,0 +1,58 @@
+
+<!-- <%- include('./partials/header.ejs') %> -->
+
+<style>
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+     
+    }
+    .crud_oper{
+        border: 2px solid black;
+        border-radius: 1rem;
+        margin: 2rem;
+        padding: 1rem;
+        background-color: rgb(245, 159, 53);
+    }
+    .card-title{
+        background-color: rgb(13, 13, 18);
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+</style>
+<div class="crud_oper">
+    <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Adding New User</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone:</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Enter phone number">
+            </div>
+            <div class="mb-3">
+              <label for="file" class="form-label">Choose File:</label>
+              <input type="file" class="form-control" id="file">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+      
+</div>
+
+
+<!-- <%- include('./partials/footer.ejs') %> -->

@@ -1,0 +1,208 @@
+[
+    {
+        "name": "Modern Apartment in the Heart of the City",
+        "country": "France",
+        "price": 200,
+        "summary": "Live like a local in this stylish apartment located in the heart of Paris.",
+        "bedroom": 1,
+        "bathroom": 1,
+        "address": "789 Rue de la Paix, Paris",
+        "ratings": 4.7,
+        "images": [
+            "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+            "https://images.unsplash.com/photo-1617806118233-18e1de247200?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRpbmluZyUyMHRhYmxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+            "https://images.unsplash.com/photo-1631215750638-bdde5f616128?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhdGh8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+        ]
+    },
+    {
+        "name": "Luxury Penthouse with Ocean View",
+        "country": "USA",
+        "price": 500,
+        "summary": "Experience the ultimate in luxury living with this stunning penthouse overlooking the ocean.",
+        "bedroom": 3,
+        "bathroom": 3,
+        "address": "456 Ocean Boulevard, Miami",
+        "ratings": 4.9,
+        "images": [
+            "https://images.unsplash.com/photo-1542853647-47ad77242390?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA1fHxob21lJTIwYXBwYXJ0ZW1lbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+            "https://images.unsplash.com/photo-1636138389529-d35a2a348dc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRpbmluZyUyMHRhYmxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+            "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmF0aHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+           
+        ]
+    },
+    {
+        "name": "Cozy Cottage in the Woods",
+        "country": "Canada",
+        "price": 120,
+        "summary": "Escape the city and relax in this charming cottage surrounded by nature.",
+        "bedroom": 2,
+        "bathroom": 1,
+        "address": "123 Forest Lane, Vancouver",
+        "ratings": 4.8,
+        "images": [
+            "https://images.unsplash.com/photo-1539922631499-09155cc609a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1577140917170-285929fb55b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZGluaW5nJTIwdGFibGV8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+          
+        ]
+    },
+  
+
+    {
+        "name": "Rustic Farmhouse with Mountain Views",
+        "country": "Italy",
+        "price": 150,
+        "summary": "Experience the beauty of Tuscany in this charming farmhouse surrounded by mountains.",
+        "bedroom": 2,
+        "bathroom": 1,
+        "address": "234 Via della Rosa, Tuscany",
+        "ratings": 4.6,
+        "images": [
+            "https://images.unsplash.com/photo-1546551613-09c2f83e1ede?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+        ]
+    },
+    {
+        "name": "Secluded Beachfront Villa",
+        "country": "Greece",
+        "price": 400,
+        "summary": "Escape to paradise with this secluded villa located on a beautiful Greek island.",
+        "bedroom": 4,
+        "bathroom": 3,
+        "address": "567 Seaside Drive, Mykonos",
+        "ratings": 4.9,
+        "images": [
+            "https://images.unsplash.com/photo-1494203484021-3c454daf695d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxob21lJTIwYXBwYXJ0ZW1lbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+            
+        ]
+    },
+    {
+        "name": "Historic Mansion with Garden Oasis",
+        "country": "Spain",
+        "price": 300,
+        "summary": "Step back in time and experience the grandeur of this historic mansion with its lush garden oasis.",
+        "bedroom": 5,
+        "bathroom": 4,
+        "address": "890 Calle del Sol, Madrid",
+        "ratings": 4.7,
+        "images": [
+            "https://images.unsplash.com/photo-1560185009-5bf9f2849488?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+         
+        ]
+    },
+    {
+        "name": "Sleek and Stylish Loft in the City",
+        "country": "Germany",
+        "price": 180,
+        "summary": "Enjoy modern living at its finest in this sleek and stylish loft in the heart of Berlin.",
+        "bedroom": 1,
+        "bathroom": 1,
+        "address": "345 Alexanderplatz, Berlin",
+        "ratings": 4.5,
+        "images": [
+            "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+        ]
+    },
+    {
+        "name": "Private Villa with Infinity Pool",
+        "country": "Thailand",
+        "price": 350,
+        "summary": "Experience luxury living in this private villa with its breathtaking infinity pool and stunning ocean views.",
+        "bedroom": 3,
+        "bathroom": 2,
+        "address": "789 Ko Samui Road, Koh Samui",
+        "ratings": 4.8,
+        "images": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+        ]
+    },
+    {
+        "name": "Traditional Japanese Ryokan",
+        "country": "Japan",
+        "price": 250,
+        "summary": "Experience the beauty and tranquility of Japan with a stay at this traditional ryokan.",
+        "bedroom": 2,
+        "bathroom": 1,
+        "address": "567 Shinjuku Street, Tokyo",
+        "ratings": 4.6,
+        "images": [
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+        ]
+    },
+    {
+        "name": "Charming Beach House with Stunning Views",
+        "country": "Australia",
+        "price": 280,
+        "summary": "Relax and unwind in this charming beach house with its stunning views of the ocean and coastline.",
+        "bedroom": 2,
+        "bathroom": 2,
+        "address": "123 Beach Road, Sydney",
+        "ratings": 4.7,
+        "images": [
+            "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+        ]
+    },
+    {
+        "name": "Luxury Penthouse with City Views",
+        "country": "USA",
+        "price": 500,
+        "summary": "Experience luxury living at its finest in this stunning penthouse with its breathtaking city views.",
+        "bedroom": 3,
+        "bathroom": 3,
+        "address": "123 Main Street, New York",
+        "ratings": 4.9,
+        "images": [
+            "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+        ]
+    },
+    {
+        "name": "Cozy Cabin in the Woods",
+        "country": "Canada",
+        "price": 150,
+        "summary": "Escape the hustle and bustle of city life and enjoy a peaceful retreat in this cozy cabin in the woods.",
+        "bedroom": 1,
+        "bathroom": 1,
+        "address": "456 Forest Road, Vancouver",
+        "ratings": 4.3,
+        "images": [
+            "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+        ]
+    },
+    {
+        "name": "Modern Apartment in the City Center",
+        "country": "France",
+        "price": 250,
+        "summary": "Experience the vibrancy of Paris with a stay in this modern and stylish apartment in the heart of the city.",
+        "bedroom": 2,
+        "bathroom": 2,
+        "address": "789 Rue de Rivoli, Paris",
+        "ratings": 4.6,
+        "images": [
+            "https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+        ]
+    },
+    {
+        "name": "Rustic Farmhouse with Panoramic Views",
+        "country": "Italy",
+        "price": 300,
+        "summary": "Experience the charm and beauty of the Italian countryside with a stay in this rustic farmhouse with its panoramic views.",
+        "bedroom": 4,
+        "bathroom": 3,
+        "address": "234 Via Tuscany, Florence",
+        "ratings": 4.8,
+        "images": [
+            "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+        ]
+    },
+    {
+        "name": "Secluded Treehouse Retreat",
+        "country": "Costa Rica",
+        "price": 200,
+        "summary": "Escape to the rainforest and experience the ultimate in relaxation and tranquility with a stay in this secluded treehouse retreat.",
+        "bedroom": 1,
+        "bathroom": 1,
+        "address": "456 Jungle Road, Manuel Antonio",
+        "ratings": 4.5,
+        "images": [
+            "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+        ]
+    }
+]

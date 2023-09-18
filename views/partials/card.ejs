@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Airbnb Cards</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Card styles */
+    .card {
+      border: none;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease-in-out;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+      font-size: 0.9rem;
+    }
+
+    .card-price {
+      font-size: 1.3rem;
+      margin-top: auto;
+    }
+
+    /* Section styles --making cards responsive*/
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 2rem;
+      margin-top: 2rem;
+    }
+    
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+    .like-icon {
+      color: #ff385c;
+      font-size: 1.5rem;
+    }
+
+
+  </style>
+</head>
+
+<body>
+    <section class="cards">
+        <!-- hotelData holds information from  -->
+        <% hotelData.forEach((element) => { %>
+          <div class="card mx-2 mb-3">
+            <div class="position-relative">
+              <img src="<%= element.images %>" class="card-img" alt="...">
+              <!-- fixing position of like icon -->
+              <button class="btn btn-link like-icon position-absolute top-0 end-0"><i class="fas fa-heart"></i></button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><%= element.name %></h5>
+              <p class="card-text"><%= element.country %></p>
+              <div class="d-flex justify-content-between">
+                <p class="card-text"><%= element.address %></p>
+                <p class="card-text font-weight-bold">$<%= element.price %>/night</p>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-primary booking" >Booking</button>
+              </div>
+            </div>
+          </div>
+        <% }) %>
+      </section>
+      
+      
+</body>
+</html>

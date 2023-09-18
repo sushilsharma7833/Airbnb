@@ -1,0 +1,55 @@
+<%- include('./partials/header.ejs') %> <%- include('./partials/navCrud.ejs') %>
+
+<div style="display: flex;
+justify-content: center;margin-top: 2rem; ">
+    <a href="/addNewUser" class="btn btn-success">Add new User</a>
+</div>
+
+<div class="table-responsive my-3 text">
+  <table class="table table-striped text-center">
+    <thead>
+      <tr class="table-dark">
+        <th>ID</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+      <tr>
+        <td>1</td>
+        <td>
+          <img src="path/to/image.jpg" alt="User Image" class="img-thumbnail" />
+        </td>
+        <td>John Doe</td>
+        <td>johndoe@example.com</td>
+        <td>(555) 555-1212</td>
+        <td>
+          <a href="#" class="btn btn-primary">Edit</a>
+          <a href="#" class="btn btn-danger">Delete</a>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>
+          <img src="path/to/image.jpg" alt="User Image" class="img-thumbnail" />
+        </td>
+        <td>Jane Smith</td>
+        <td>janesmith@example.com</td>
+        <td>(555) 555-1212</td>
+        <td>
+          <a href="#" class="text-primary fs-4"
+            ><i class="fa-regular fa-pen-to-square"></i
+          ></a>
+          <a href="#" class="text-danger fs-4"
+            ><i class="fa-solid fa-trash"></i
+          ></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<%- include('./partials/footer.ejs') %>
